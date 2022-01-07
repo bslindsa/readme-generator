@@ -57,11 +57,9 @@ function renderLicenseSection(license) {
   return `This project is licensed under the ${license} license.`
 }}
 
-// Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   
-// Render license badge to top of page.
 ${renderLicenseBadge(data.license)}
 
 ## Description

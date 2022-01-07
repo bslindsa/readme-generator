@@ -24,6 +24,11 @@ There are no current methods of installing this project.
 
 This README generator will prompt the user to answer several questions about their project. After all of the questions are answered, the code will automatically insert the input into the template to create a professional README.md file.
 
+The following video demonstrates the application functionality:
+
+https://watch.screencastify.com/v/1DpuT7ahO8Hqmc7X8Iyi
+![A user runs the program and answers the prompted questions. The application will then create a newREADME.md file and write the details provided by the user into the file.](./utils/readme-gen.gif)
+
 <a name="license"></a>
 ## License
 
