@@ -3,6 +3,9 @@
 function renderLicenseBadge(license) {
   let badge;
   switch (license) {
+    case 'MIT':
+      badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+      break;
     case 'Apache 2.0':
       badge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
       break;
@@ -29,6 +32,9 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   let link;
   switch (license) {
+    case 'MIT':
+      link = 'https://opensource.org/licenses/MIT';
+      break;
     case 'Apache 2.0':
       link = 'https://opensource.org/licenses/Apache-2.0';
       break;
